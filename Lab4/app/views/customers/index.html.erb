@@ -42,7 +42,12 @@
   </tbody>
 </table>
 
-<%= will_paginate @posts %>
+<div class="digg_pagination">
+  <div class="page_info">
+    <%= page_entries_info @customers %>
+  </div>
+  <%= will_paginate @customers, :container => false %>
+</div>
 <br>
 
 <%= link_to 'New Customer', new_customer_path %>
