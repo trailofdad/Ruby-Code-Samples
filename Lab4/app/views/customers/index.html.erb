@@ -34,9 +34,9 @@
         <td><%= customer.Phone %></td>
         <td><%= customer.Fax %></td>
         <td><%= customer.Email %></td>
-        <td><%= link_to 'Show', customer %></td>
-        <td><%= link_to 'Edit', edit_customer_path(customer) %></td>
-        <td><%= link_to 'Destroy', customer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to (image_tag "show.png", class: "myIcon"), customer %></td>
+        <td><img src="../images/show.png" alt=""/><%= link_to (image_tag "edit.png", class: "myIcon"), edit_customer_path(customer) %></td>
+        <td><img src="../images/show.png" alt=""/><%= link_to (image_tag "delete.png", class: "myIcon"), customer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
