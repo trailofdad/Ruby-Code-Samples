@@ -10,6 +10,7 @@ class CustomersController < ApplicationController
   # GET /customers/1
   # GET /customers/1.json
   def show
+    @customer_invoice = @customer.invoices.paginate(:page => params[:page], :per_page => 5)
   end
 
   # GET /customers/new
