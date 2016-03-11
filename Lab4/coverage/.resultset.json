@@ -9,7 +9,11 @@
         1,
         null
       ],
-      "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/controllers/customers_controller.rb": [
+      "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/helpers/employees_helper.rb": [
+        1,
+        null
+      ],
+      "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/controllers/employees_controller.rb": [
         1,
         1,
         null,
@@ -22,7 +26,6 @@
         null,
         null,
         1,
-        0,
         null,
         null,
         null,
@@ -93,7 +96,7 @@
         1,
         null
       ],
-      "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/models/customer.rb": [
+      "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/models/employee.rb": [
         1,
         1,
         1,
@@ -101,6 +104,83 @@
         1,
         1,
         null
+      ],
+      "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/controllers/customers_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/models/album.rb": [
         0,
@@ -112,15 +192,6 @@
         0
       ],
       "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/models/artist.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/models/employee.rb": [
-        0,
         0,
         0,
         0,
@@ -190,8 +261,17 @@
         0,
         0,
         0
+      ],
+      "/home/inet2005/Code/Ruby/webd3101-cha2/Lab4/app/models/customer.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1457648846
+    "timestamp": 1457705838
   }
 }
