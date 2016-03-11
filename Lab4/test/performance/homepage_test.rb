@@ -7,6 +7,6 @@ class HomepageTest < ActionDispatch::PerformanceTest
   #                          output: 'tmp/performance', formats: [:flat] }
 
   test "homepage" do
-    get '/customers'
+    get '/employees'
   end
 end
